@@ -5,8 +5,8 @@ type ArticleCardHeaderProps = {
 
 export const ArticleCardHeader = ({ currentIndex, totalCount }: ArticleCardHeaderProps) => (
   <header className="flex items-center gap-2">
-    <div>
-      <img src="/hologram.svg" alt="" />
+    <div className="rounded-full bg-white/50 bg-[url('/hologram-background.jpg')] bg-[length:220%] bg-center bg-no-repeat p-1 bg-blend-overlay">
+      <img src="/star.svg" alt="star" />
     </div>
     <span
       className="text-primary-dark text-sm"
