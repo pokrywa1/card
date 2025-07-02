@@ -1,0 +1,12 @@
+export const HamburgerIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    width={16}
+    height={12}
+    viewBox="0 0 16 12"
+    fill="current"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path d="M11.3333 9.96156V11.3077H2.16667V9.96156H11.3333ZM15.5 5.25002V6.59618H0.5V5.25002H15.5ZM13.8333 0.538483V1.88464H4.66667V0.538483H13.8333Z" />
+  </svg>
+)

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@layer base {
+  html,
+  body {
+    @apply min-h-screen;
+  }
+}
+
+@theme {
+  --font-sans: 'Montserrat', sans-serif;
+
+  /* Kolory */
+  --color-primary-ultra-light: #d6d2f9;
+  --color-primary-light: #b7bbff;
+  --color-primary: #9295dc;
+  --color-primary-dark: #6c71e0;
+  --color-secondary: #f69bc8;
+  --color-line: #eaeae9;
+  --color-dark: #2a2825;
+
+  /* Radius */
+  --radius-default: 1rem;
+  --radius-sm: 0.125rem; /* 2px - dla rounded-sm */
+
+  /* Spacing */
+  --spacing-card-max-width: 280px;
+  --spacing-card-image-height: 220px;
+  --spacing-translate-y-card: -1.5rem; /* -translate-y-6 */
+
+  /* Font sizes - małe rozmiary czcionek */
+  --font-size-xs-plus: 10px; /* dla text-[10px] */
+  --font-size-sm-plus: 15px; /* dla text-[15px] */
+
+  /* Border styles */
+  --border-width-dotted: 2px;
+}
