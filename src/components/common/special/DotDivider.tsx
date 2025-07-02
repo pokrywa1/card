@@ -1,3 +1,5 @@
+import { cn } from '../../../misc/utils/cn'
+
 type DotDividerProps = {
   className?: string
   color?: string
@@ -10,7 +12,7 @@ export const DotDivider = ({ className = '', color = '#b7bbff' }: DotDividerProp
 
   return (
     <div
-      className={`h-1 w-full ${className}`}
+      className={cn(`h-1 w-full`, className)}
       style={{
         backgroundImage: `url("data:image/svg+xml,${svg}")`,
         backgroundRepeat: 'repeat-x',

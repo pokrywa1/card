@@ -43,7 +43,7 @@ export const ArticleCard = ({
   }
   return (
     <article className="border-line rounded-default max-w-card-max-width mx-auto border px-5 pt-2 pb-4">
-      <Card>
+      <Card className="translate-y-translate-y-card">
         <div className="flex flex-col gap-2">
           <ArticleCardHeader currentIndex={currentIndex} totalCount={totalCount} />
 
