@@ -13,7 +13,7 @@ export const ActionIcon = ({
 }: ActionIconProps) => {
   return (
     <button
-      className={(cn('border-line -mt-1 w-fit cursor-pointer border px-2 py-1.5'), className)}
+      className={cn('border-line -mt-1 w-fit cursor-pointer border px-2 py-1.5', className)}
       style={{ borderRadius: 'var(--radius-sm)' }}
       onClick={onClick}
       {...props}

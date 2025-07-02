@@ -15,7 +15,9 @@ export const ViewHome = () => {
         author="gloria-spritz"
       />
 
-      <Card>Przykładowy tekst</Card>
+      <Card>
+        <p className="text-primary-dark font-bold">Card do wykorzystania</p>
+      </Card>
     </div>
   )
 }
